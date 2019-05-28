@@ -9,7 +9,9 @@ public class Task5 {
 
     public static void main(String[] args) {
 
-        int result = (((d / c) * b) + a) * 2;
+//        int result = (((d / c) * b) + a) * 2;
+
+        int result = d - ((a + b)+(c / b));
 
         System.out.println(result);
     }
